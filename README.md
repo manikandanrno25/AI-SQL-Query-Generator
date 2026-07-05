@@ -3,40 +3,15 @@
 Describe what you want in plain English, get back a runnable SQL query.
 Runs on **Google Gemini's free API tier** — no paid account needed.
 
-## Option A: a single app you just double-click (recommended)
+## 🚀 Getting Started
 
-This turns everything into one file — `QueryDraft.exe` on Windows — so after
-a one-time build, you never touch Python, a terminal, or this folder again.
-
-**One-time setup (needs Python + internet, only ever done once):**
-
-- **Windows**: double-click `build_exe.bat`
-- **Mac/Linux**: run `./build_exe.sh` in a terminal
-
-This creates a `dist` folder containing a single file: `QueryDraft.exe`
-(Windows) or `QueryDraft` (Mac/Linux). Move that one file wherever you
-want — Desktop, a USB stick, another computer entirely. You can delete
-everything else in this repo after that if you want; it's no longer needed.
-
-**From then on:** just double-click that file. First run, it asks for a
-free Gemini API key once (get one at https://aistudio.google.com/apikey —
-no credit card required) and remembers it after that. Your browser opens
-automatically. That's the whole experience — no terminal, no scripts, no
-setup.
-
-## Option B: run it straight from source (no build step)
-
-If you'd rather skip building an exe:
-
-- **Mac/Linux**: double-click `start.sh` (or run `./start.sh`)
-- **Windows**: double-click `start.bat`
-
-Same first-run API key prompt, same auto-opening browser — this just runs
-directly from the Python files each time instead of a single packaged app.
-
-(Requires Python 3.9+ installed — check with `python3 --version` or
-`python --version`.)
-
+1. Download and extract **query-draft-gemini.zip**.
+2. Double-click **build_exe.bat** (only the first time). This will create **QueryDraft.exe** inside the **dist** folder.
+3. Open the **dist** folder and double-click **QueryDraft.exe**.
+4. When prompted, enter your **Google Gemini API key** (only the first time).
+   - Get a free API key from Google AI Studio: https://aistudio.google.com/apikey
+5. Your API key will be saved locally, and the application will automatically open in your browser.
+6. From then on, simply double-click **QueryDraft.exe** to launch the application.
 ## Getting a free Gemini API key
 
 1. Go to https://aistudio.google.com/apikey
@@ -77,10 +52,3 @@ query-draft/
 └── .gitignore
 ```
 
-## If you want to deploy this publicly instead of running it locally
-
-Both options above are built for "run it on your own machine." If you want
-a real hosted link you can share (so people don't need to download or run
-anything at all), that's a different setup — deploying `app.py` to a host
-like Render or Fly.io with the API key set as an environment variable there.
-Ask and I'll walk through it.

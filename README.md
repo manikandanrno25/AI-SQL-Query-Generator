@@ -51,4 +51,5 @@ query-draft/
 │   └── index.html       the page itself
 └── .gitignore
 ```
+<img width="1191" height="626" alt="Screenshot 2026-07-05 130701" src="https://github.com/user-attachments/assets/881b989b-d0b7-4146-b003-c0ff89324f78" />
 

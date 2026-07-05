@@ -42,4 +42,3 @@ python app.py
 
 ## Screenshot
 <img width="1191" height="626" alt="Screenshot 2026-07-05 130701" src="https://github.com/user-attachments/assets/a542a97b-1fa3-4bb0-a294-67c451017145" />
-
